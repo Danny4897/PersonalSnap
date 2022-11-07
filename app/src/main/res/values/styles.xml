@@ -1,0 +1,115 @@
+<resources>
+
+    <style name="AppText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppText.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppText.Regular">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppText.Bold.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppText.Bold.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppText.Bold.ColorPrimary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppText.Regular.White">
+    </style>
+
+    <style name="AppText.Regular.Black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppText.Regular.ColorPrimary">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="AppText.Regular.White.Large">
+        <item name="android:textSize">@dimen/text_l</item>
+    </style>
+
+    <style name="AppText.Regular.Black.Large">
+        <item name="android:textSize">@dimen/text_l</item>
+    </style>
+
+    <style name="AppText.Regular.ColorPrimary.Large">
+        <item name="android:textSize">@dimen/text_l</item>
+    </style>
+
+    <style name="AppText.Regular.White.Small">
+        <item name="android:textSize">@dimen/text_s</item>
+    </style>
+
+    <style name="AppText.Regular.Black.Small">
+        <item name="android:textSize">@dimen/text_s</item>
+    </style>
+
+    <style name="AppText.Regular.ColorPrimary.Small">
+        <item name="android:textSize">@dimen/text_s</item>
+    </style>
+
+    <style name="AppText.Bold.White.Large">
+        <item name="android:textSize">@dimen/text_l</item>
+    </style>
+
+    <style name="AppText.Bold.Black.Large">
+        <item name="android:textSize">@dimen/text_l</item>
+    </style>
+
+    <style name="AppText.Bold.ColorPrimary.Large">
+        <item name="android:textSize">@dimen/text_l</item>
+    </style>
+
+    <style name="AppText.Bold.White.Small">
+        <item name="android:textSize">@dimen/text_s</item>
+    </style>
+
+    <style name="AppText.Bold.Black.Small">
+        <item name="android:textSize">@dimen/text_s</item>
+    </style>
+
+    <style name="AppText.Bold.ColorPrimary.Small">
+        <item name="android:textSize">@dimen/text_s</item>
+    </style>
+
+    <style name="Theme.Tourney.BaseButton" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">10dp</item>
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="Theme.Tourney.BaseButton">
+        <item name="backgroundTint">@color/primary_button_color</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <style name="ButtonSecondary" parent="Theme.Tourney.BaseButton">
+        <item name="backgroundTint">@color/secondary_button_color</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <style name="ButtonOutline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:paddingStart">24dp</item>
+        <item name="android:paddingEnd">24dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="strokeColor">@color/primary_button_color</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+
+</resources>

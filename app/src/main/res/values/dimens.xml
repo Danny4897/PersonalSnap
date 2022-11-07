@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="text_xs">10sp</dimen>
+    <dimen name="text_s">12sp</dimen>
+    <dimen name="text_l">16sp</dimen>
+    <dimen name="text_xl">24sp</dimen>
+    <dimen name="text_xxl">28sp</dimen>
+    <dimen name="text_xxxl">32sp</dimen>
+
+</resources>
